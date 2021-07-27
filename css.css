@@ -1,0 +1,109 @@
+body{
+    font-family: 'Prompt', sans-serif;
+    margin: 0%;
+}
+
+                    /*header styling*/
+header {
+    position:fixed;
+    background-color: #ffffff;
+    color: rgba(0, 247, 255, 0.877);
+    height:  60px;
+    width: 100%;
+    padding: 4px 0px;
+    box-shadow: 1px  1px 15px  rgba(209, 226, 192, 0.986);
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around; 
+    align-items:center;
+}
+
+header .nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+header .nav li{
+    list-style: none;
+    margin: 0 20px;
+}
+header .nav li a{
+   color: black;
+   text-decoration :none;
+   letter-spacing: 1px;
+   font-weight: 500;
+   transition: .2s ease;
+}
+header .nav li a:hover{
+    color: rgb(247, 149, 2);
+    font-weight: 700;
+
+ }
+.active{
+    background-color: orange;
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+
+.btn{
+    background-color: rgb(238, 114, 13);
+    color: honeydew;
+     margin: 9px 9px;
+    padding: 8px 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s ease;
+    align-items: center;
+}
+
+.btn:hover{
+background-color: rebeccapurple;
+color: orange;
+}
+
+                        /*Page 1*/
+
+.page1{
+    background-image: url('https://img.freepik.com/free-vector/public-library-interior-stack-book-bookshelf-flat_7081-838.jpg?size=1300&ext=jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(201, 196, 196, 0.842);
+    background-blend-mode:lighten;
+    width: 100%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bookimg img{
+    width: 120px;
+    height: 170px;
+    margin: 10px 70px;
+    cursor: pointer;
+}
+ 
+                        /*Page 2*/
+
+.page2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:100%;
+    clear: both;
+    color: rgb(236, 5, 5);
+}
+
+
+                        /*Footer styling*/
+
+footer{
+    position:relat;
+    margin-top: -100px;
+    clear: both;
+    height: 190px;
+    width: 100%;
+    background-color:#292725;
+    color: white;
+    text-align: center;
+}
